@@ -1,0 +1,110 @@
+/**
+* @name zee
+* @author not ridder001
+* @description le epic steal
+*/
+
+:root {
+  /* --- User variables --- */
+
+  /* Jumping GIF */
+  --jumping-gif: url("https://i.imgur.com/dCd49s0.gif");
+
+  /* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("image-link"); without that => */
+  --background-tertiary-alt: #ffc7d4;;
+
+  /* Border-radius for the whole theme */
+  --border-radius: 20px;
+}
+
+.colorBrand-3cPPsm {
+  color: #c5536c;
+}
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Buttons */
+.lookFilled-1H2Jvj {
+  background-color: #c5536c !important;
+}
+.lookFilled-1H2Jvj:active,
+.lookFilled-1H2Jvj:hover {
+  background-color: #b64a61 !important;
+}
+.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
+  color: #c5536c;
+  border-color: #c5536c;
+}
+
+/* Hover background */
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  color: var(--interactive-normal);
+}
+
+
+
+.theme-light {
+  /* Text */
+  --text-normal: #a86373;
+  --header-primary: #a86373;
+  --interactive-normal: #a86373;
+  --channels-default: #a86373;
+
+
+  --text-muted: #a86373;
+  --interactive-muted: #cf92a0;
+
+  --header-secondary: #cf92a0;
+  --interactive-hover: #be7d8c;
+  --interactive-active: #b36f7f;
+
+  /* Background color */
+  --background-primary: url(https://cdn.discordapp.com/attachments/1341079981177966632/1354934192328409269/Scresasenshot_2025-03-27_at_16.17.40.png?ex=67e7184c&is=67e5c6cc&hm=04e228a98da636d05e9e00392ec1957257f1e1c40219615284cd8088ad95cc52&) no-repeat center center / cover;
+  --background-secondary: #ffeeee;
+  --background-secondary-alt: #fdc7c7;
+  --background-tertiary: #ffbbbb;
+  --background-floating: #ffbbbb;
+  --background-accent: #c5536c;
+  --channeltextarea-background: var(--background-secondary);
+  --background-modifier-hover: rgba(56, 31, 31, 0.062);
+  --background-modifier-active: rgba(19, 12, 12, 0.123);
+  --background-modifier-selected: rgba(31, 21, 21, 0.11);
+
+  /* Scrollbar */
+  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: transparent;
+
+  /* Other */
+  --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Buttons */
+.lookFilled-1H2Jvj {
+  background-color: #c5536c !important;
+}
+.lookFilled-1H2Jvj:active,
+.lookFilled-1H2Jvj:hover {
+  background-color: #b64a61 !important;
+}
+.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
+  color: #c5536c;
+  border-color: #c5536c;
+}
+
+/* Hover background */
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  color: var(--interactive-normal);
+}
